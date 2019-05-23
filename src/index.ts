@@ -1,15 +1,23 @@
 import Vue from 'vue';
-import NameComponent from './components/Name.vue';
+import Vuetify from 'vuetify';
+import NavbarComponent from './components/Navbar.vue';
+import FooterComponent from './components/Footer.vue';
+import 'vuetify/dist/vuetify.min.css';
 
-const v = new Vue({
+Vue.use(Vuetify);
+
+new Vue({
     el: '#app',
     components: {
-        NameComponent,
+        NavbarComponent,
+        FooterComponent,
     },
-    data: { name: 'Michael Darr' },
     template: `
-    <div>
-        <name-component :name="name"/>
-    </div>
+    <v-app>
+        <v-container grid-list-md text-xs-center>
+            <navbar-component />
+        </v-container>
+        <footer-component />
+    </v-app>
     `,
 });

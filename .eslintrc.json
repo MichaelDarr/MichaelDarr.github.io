@@ -19,7 +19,8 @@
         "no-console": "off",
         "keyword-spacing": "off",
         "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
-        "vue/html-indent": "off"
+        "vue/html-indent": "off",
+        "no-new": "off"
     },
     "settings": {
         "import/resolver": {
