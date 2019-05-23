@@ -1,15 +1,35 @@
 import Vue from 'vue';
-import NameComponent from './components/Name.vue';
+import Vuetify from 'vuetify';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import NavbarComponent from './components/Navbar.vue';
+import BodyComponent from './components/Body.vue';
+import FooterComponent from './components/Footer.vue';
+import 'vuetify/dist/vuetify.min.css';
 
-const v = new Vue({
+
+Vue.component('font-awesome-icon', FontAwesomeIcon);
+library.add(fas);
+
+Vue.use(Vuetify, {
+    iconfont: 'faSvg',
+});
+
+new Vue({
     el: '#app',
     components: {
-        NameComponent,
+        NavbarComponent,
+        BodyComponent,
+        FooterComponent,
     },
-    data: { name: 'Michael Darr' },
     template: `
-    <div>
-        <name-component :name="name"/>
-    </div>
+    <v-app>
+        <v-container>
+            <navbar-component />
+            <body-component />
+        </v-container>
+        <footer-component />
+    </v-app>
     `,
 });
