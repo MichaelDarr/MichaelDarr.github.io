@@ -9,18 +9,9 @@
                     <h2 class="subtitle">
                         Programming Fanatic, Linux Evangelist, Music Buff
                     </h2>
-                    <nav-tabs-component />
+                    <nav-tab-menu-component />
                 </div>
             </div>
         </div>
     </section>
 </template>
-
-<script lang="ts">
-import { Vue, Component, Prop } from 'vue-property-decorator';
-
-@Component
-export default class Navbar extends Vue {
-}
-
-</script>

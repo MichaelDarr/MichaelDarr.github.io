@@ -9,7 +9,8 @@ import ContactPage from './routes/ContactPage.vue';
 import HeaderComponent from './components/Header.vue';
 import BodyComponent from './components/Body.vue';
 import FooterComponent from './components/Footer.vue';
-import NavTabsComponent from './components/NavTabs.vue';
+import NavTabMenuComponent from './components/NavTabMenu.vue';
+import NavTabComponent from './components/NavTab.vue';
 
 Vue.use(Buefy);
 Vue.use(VueRouter);
@@ -31,7 +32,8 @@ new Vue({
         HeaderComponent,
         BodyComponent,
         FooterComponent,
-        NavTabsComponent,
+        NavTabMenuComponent,
+        NavTabComponent,
     },
     router,
 });
