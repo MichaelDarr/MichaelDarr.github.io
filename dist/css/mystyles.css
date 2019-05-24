@@ -7,13 +7,18 @@ body {
   min-height: 100vh; }
 
 .is-max-custom-width {
-  max-width: 960px; }
+  max-width: 840px; }
 
 .fix-footer {
-  position: fixed;
+  position: absolute;
   width: 100%;
   bottom: 0;
+  left: 0;
   overflow: hidden; }
+
+.fix-footer-invis {
+  visibility: hidden;
+  width: 100%; }
 
 .brand-link {
   color: #4a4a4a; }

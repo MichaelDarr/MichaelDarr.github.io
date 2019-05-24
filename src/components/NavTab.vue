@@ -12,10 +12,10 @@ import { Component, Prop } from 'vue-property-decorator';
 
 @Component
 export default class NavTab extends Vue {
-    @Prop({ default: '/blog' })
+    @Prop()
     link!: string;
 
-    @Prop({ default: 'Blog' })
+    @Prop()
     display!: string;
 
     isActive(): boolean {

@@ -1,13 +1,9 @@
 <template functional>
-    <div class="tabs is-left">
+    <div class="tabs is-right">
         <ul>
             <nav-tab-component
                 link="/"
                 display="Blog"
-            />
-            <nav-tab-component
-                link="/projects"
-                display="Projects"
             />
             <nav-tab-component
                 link="/about"

@@ -1,4 +1,4 @@
-<template>
+<template functional>
     <footer class="footer fix-footer">
         <div class="columns is-centered">
             <div class="column is-full is-max-custom-width">

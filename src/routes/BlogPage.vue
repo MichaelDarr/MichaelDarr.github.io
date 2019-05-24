@@ -2,6 +2,7 @@
     <div class="whole-page">
         <header-component />
         BLOG
-        <footer-component />
+        <inline-footer-invis-component />
+        <fixed-footer-component />
     </div>
 </template>
