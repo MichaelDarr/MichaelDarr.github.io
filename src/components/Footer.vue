@@ -1,22 +1,45 @@
 <template>
-    <v-footer
-        class="pa-3"
-        fixed
-    >
-        <v-spacer />
-        <v-btn
-            class="mx-3"
-            href="https://www.linkedin.com/in/michael-darr-605782a3/"
-            icon
-        >
-            <v-icon size="24px">fab fa-linkedin</v-icon>
-        </v-btn>
-        <v-btn
-            class="mx-3"
-            href="https://github.com/MichaelDarr"
-            icon
-        >
-            <v-icon size="24px">fab fa-github</v-icon>
-        </v-btn>
-    </v-footer>
+    <footer class="footer fix-footer is-hidden-mobile">
+        <div class="columns is-centered">
+            <div class="column is-full is-narrow">
+                <div class="columns level">
+                    <div class="column is-one-third-tabet">
+                        <p class="is-size-7">
+                            <a
+                                href="mailto:medarr@email.wm.edu"
+                                target="_top"
+                            >
+                                medarr@email.wm.edu
+                            </a>
+                        </p>
+                        <p class="is-size-7">
+                            Hacking in Belmont, MA
+                        </p>
+                    </div>
+                    <div class="column has-text-right">
+                        <a
+                            class="brand-link"
+                            href="https://www.linkedin.com/in/michael-darr-605782a3/"
+                        >
+                            <b-icon
+                                pack="fab"
+                                icon="linkedin"
+                                size="is-medium"
+                            />
+                        </a>
+                        <a
+                            class="brand-link"
+                            href="https://github.com/MichaelDarr"
+                        >
+                            <b-icon
+                                pack="fab"
+                                icon="github"
+                                size="is-medium"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </template>
