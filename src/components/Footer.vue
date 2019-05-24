@@ -1,14 +1,11 @@
 <template>
     <footer class="footer fix-footer">
         <div class="columns is-centered">
-            <div class="column is-full is-narrow">
+            <div class="column is-full is-max-custom-width">
                 <div class="columns level">
                     <div class="column  is-hidden-mobile">
                         <p class="is-size-7">
-                            <a
-                                href="mailto:medarr@email.wm.edu"
-                                target="_top"
-                            >
+                            <a href="mailto:medarr@email.wm.edu">
                                 medarr@email.wm.edu
                             </a>
                         </p>

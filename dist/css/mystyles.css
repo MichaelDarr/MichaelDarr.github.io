@@ -6,7 +6,7 @@ body {
 .whole-page {
   min-height: 100vh; }
 
-.is-narrow {
+.is-max-custom-width {
   max-width: 960px; }
 
 .fix-footer {
@@ -14,10 +14,15 @@ body {
   width: 100%;
   bottom: 0;
   overflow: hidden; }
-  .fix-footer .brand-link {
-    color: #4a4a4a; }
-  .fix-footer .brand-link:hover {
-    color: black; }
+
+.brand-link {
+  color: #4a4a4a; }
+
+.brand-link:hover {
+  color: black; }
+
+.force-left-justify {
+  justify-content: left !important; }
 
 /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {

@@ -2,7 +2,7 @@
     <section class="section">
         <div class="container">
             <div class="columns is-centered">
-                <div class="column is-full is-narrow">
+                <div class="column is-full is-max-custom-width">
                     <h1 class="title">
                         Michael Darr
                     </h1>

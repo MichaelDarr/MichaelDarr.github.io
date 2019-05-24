@@ -7,7 +7,6 @@ import ProjectsPage from './routes/ProjectsPage.vue';
 import AboutPage from './routes/AboutPage.vue';
 import ContactPage from './routes/ContactPage.vue';
 import HeaderComponent from './components/Header.vue';
-import BodyComponent from './components/Body.vue';
 import FooterComponent from './components/Footer.vue';
 import NavTabMenuComponent from './components/NavTabMenu.vue';
 import NavTabComponent from './components/NavTab.vue';
@@ -30,7 +29,6 @@ new Vue({
     el: '#app',
     components: {
         HeaderComponent,
-        BodyComponent,
         FooterComponent,
         NavTabMenuComponent,
         NavTabComponent,
