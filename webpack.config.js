@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
     entry: './src/index.ts',
@@ -44,6 +45,16 @@ module.exports = {
                     'css-loader',
                 ],
             },
+            {
+                test: /\.scss$/,
+                use: ExtractTextPlugin.extract({
+                    fallback: 'style-loader',
+                    use: [
+                        'css-loader',
+                        'sass-loader',
+                    ],
+                }),
+            },
         ],
     },
     resolve: {
@@ -63,6 +74,7 @@ module.exports = {
     devtool: '#eval-source-map',
     plugins: [
         new VueLoaderPlugin(),
+        new ExtractTextPlugin('css/mystyles.css'),
     ],
 };
 

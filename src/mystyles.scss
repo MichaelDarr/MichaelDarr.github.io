@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+$footer-padding: 0.7rem 1.5rem .6rem;
+$widescreen: 960px;
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.whole-page {
+    min-height: 100vh;
+}
+
+.is-narrow {
+    max-width: 960px;
+}
+
+.fix-footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    overflow:hidden;
+    .brand-link {
+        color:#4a4a4a;
+    }
+    .brand-link:hover {
+        color:black;
+    }
+}
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/bulma.sass";
