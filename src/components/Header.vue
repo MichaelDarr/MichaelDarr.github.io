@@ -1,4 +1,4 @@
-<template>
+<template functional>
     <section class="section">
         <div class="container">
             <div class="columns is-centered">
@@ -9,16 +9,7 @@
                     <h2 class="subtitle">
                         Programming Fanatic, Linux Evangelist, Music Buff
                     </h2>
-                    <div class="tabs is-left">
-                        <ul>
-                            <li class="is-active">
-                                <a>Blog</a>
-                            </li>
-                            <li><a>Projects</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Contact</a></li>
-                        </ul>
-                    </div>
+                    <nav-tabs-component />
                 </div>
             </div>
         </div>
