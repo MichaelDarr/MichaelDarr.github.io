@@ -1,16 +1,14 @@
 <template functional>
-    <section class="section">
-        <div class="container">
-            <div class="columns is-centered">
-                <div class="column is-full is-max-custom-width">
-                    <h1 class="title">
-                        Michael Darr
-                    </h1>
-                    <h2 class="subtitle">
-                        Programming Fanatic, Linux Evangelist, Music Buff
-                    </h2>
-                    <nav-tab-menu-component />
-                </div>
+    <section class="section header-section">
+        <div class="columns is-centered">
+            <div class="column is-full is-max-custom-width">
+                <h3 class="title is-4">
+                    Michael Darr
+                </h3>
+                <h5 class="subtitle is-6">
+                    Programming Fanatic, Linux Evangelist, Music Buff
+                </h5>
+                <nav-tab-menu-component />
             </div>
         </div>
     </section>

@@ -8,6 +8,7 @@ import ContactPage from './routes/ContactPage.vue';
 import HeaderComponent from './components/Header.vue';
 import InlineFooterInvisComponent from './components/InlineFooterInvis.vue';
 import FixedFooterComponent from './components/FixedFooter.vue';
+import BlogPostComponent from './components/BlogPost.vue';
 import NavTabMenuComponent from './components/NavTabMenu.vue';
 import NavTabComponent from './components/NavTab.vue';
 import ContactHeroComponent from './components/ContactHero.vue';
@@ -33,6 +34,7 @@ new Vue({
         HeaderComponent,
         InlineFooterInvisComponent,
         FixedFooterComponent,
+        BlogPostComponent,
         NavTabMenuComponent,
         NavTabComponent,
         ContactHeroComponent,

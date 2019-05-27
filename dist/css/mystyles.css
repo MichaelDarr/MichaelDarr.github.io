@@ -1,4 +1,4 @@
-body {
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif&display=swap);body {
   display: flex;
   min-height: 100vh;
   flex-direction: column; }
@@ -8,6 +8,16 @@ body {
 
 .is-max-custom-width {
   max-width: 840px; }
+
+.header-section {
+  padding-bottom: 0 !important; }
+
+.blog-section .profile {
+  border-radius: 50%; }
+
+.blog-section .blog-text p {
+  margin-bottom: 1.5em;
+  max-width: 600px; }
 
 .fix-footer {
   position: absolute;
@@ -868,7 +878,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
 
 .is-family-secondary {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Georgia", "Noto Serif", serif !important; }
 
 .is-family-sans-serif {
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
