@@ -2,8 +2,15 @@
     <section class="section">
         <div class="columns is-centered">
             <div class="column is-max-custom-width">
-                <h3 class="title is-3">How to Get Your Toddler a Job at <a href="https://pitchfork.com/">pitchfork.com</a></h3>
-                <h4 class="subtitle is-4">or, An Introduction to Supervised Machine Learning</h4>
+                <h3 class="title is-3">
+                    How to Get Your Toddler a Job at&nbsp;
+                    <a href="https://pitchfork.com/">
+                        pitchfork.com
+                    </a>
+                </h3>
+                <h4 class="subtitle is-4">
+                    or, An Introduction to Supervised Machine Learning
+                </h4>
                 <div class="content level is-mobile">
                     <div class="level-left">
                         <p class="image is-64x64 level-item">
