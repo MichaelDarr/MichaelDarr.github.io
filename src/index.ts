@@ -6,8 +6,7 @@ import BlogPage from './routes/BlogPage.vue';
 import AboutPage from './routes/AboutPage.vue';
 import ContactPage from './routes/ContactPage.vue';
 import HeaderComponent from './components/Header.vue';
-import InlineFooterInvisComponent from './components/InlineFooterInvis.vue';
-import FixedFooterComponent from './components/FixedFooter.vue';
+import FooterComponent from './components/Footer.vue';
 import BlogPostComponent from './components/BlogPost.vue';
 import NavTabMenuComponent from './components/NavTabMenu.vue';
 import NavTabComponent from './components/NavTab.vue';
@@ -32,8 +31,7 @@ new Vue({
     el: '#app',
     components: {
         HeaderComponent,
-        InlineFooterInvisComponent,
-        FixedFooterComponent,
+        FooterComponent,
         BlogPostComponent,
         NavTabMenuComponent,
         NavTabComponent,

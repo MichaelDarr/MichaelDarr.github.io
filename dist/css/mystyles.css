@@ -12,24 +12,6 @@
 .header-section {
   padding-bottom: 0 !important; }
 
-.blog-section .profile {
-  border-radius: 50%; }
-
-.blog-section .blog-text p {
-  margin-bottom: 1.5em;
-  max-width: 600px; }
-
-.fix-footer {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  overflow: hidden; }
-
-.fix-footer-invis {
-  visibility: hidden;
-  width: 100%; }
-
 .brand-link {
   color: #4a4a4a; }
 

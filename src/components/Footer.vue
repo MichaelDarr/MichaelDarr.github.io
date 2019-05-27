@@ -1,5 +1,5 @@
 <template functional>
-    <footer class="footer fix-footer">
+    <footer class="footer">
         <div class="columns is-centered">
             <div class="column is-full is-max-custom-width">
                 <div class="columns level">
