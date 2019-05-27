@@ -1,9 +1,10 @@
-import Vue, { VNode } from 'vue';
+import Vue from 'vue';
 import VueRouter from 'vue-router';
 import './mystyles.scss';
 import Buefy from 'buefy';
 import HeaderComponent from './components/Header.vue';
 import FooterComponent from './components/Footer.vue';
+import FooterInvisComponent from './components/FooterInvis.vue';
 import BlogPostComponent from './components/BlogPost.vue';
 import NavTabMenuComponent from './components/NavTabMenu.vue';
 import NavTabComponent from './components/NavTab.vue';
@@ -33,6 +34,7 @@ new Vue({
     components: {
         HeaderComponent,
         FooterComponent,
+        FooterInvisComponent,
         BlogPostComponent,
         NavTabMenuComponent,
         NavTabComponent,

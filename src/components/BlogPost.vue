@@ -1,34 +1,22 @@
 <template functional>
-    <section class="section">
+    <section class="section blog-section">
         <div class="columns is-centered">
             <div class="column is-max-custom-width">
-                <h3 class="title is-3">
+                <h1 class="title is-1">
                     How to Get Your Toddler a Job at&nbsp;
                     <a href="https://pitchfork.com/">
                         pitchfork.com
                     </a>
-                </h3>
-                <h4 class="subtitle is-4">
+                </h1>
+                <h3 class="subtitle is-3">
                     or, An Introduction to Supervised Machine Learning
-                </h4>
-                <div class="content level is-mobile">
-                    <div class="level-left">
-                        <p class="image is-64x64 level-item">
-                            <img
-                                class="profile"
-                                src="img/profile.jpg"
-                            >
-                        </p>
-                        <div class="level-item">
-                            <p>
-                                By <strong>Michael Darr</strong>
-                                <br>
-                                <small>May 7, 2019</small>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="is-family-secondary is-size-5 blog-text">
+                </h3>
+                <p class="is-size-5 credit-line">
+                    By <strong>Michael Darr</strong>
+                    <br>
+                    <small>May 7, 2019</small>
+                </p>
+                <div class="is-family-secondary is-size-2 blog-text">
                     <p>
                         Scattered on a desk in front of you are nearly twenty thousand manila folders: one for each album reviewed by Pitchfork in its 23-year history. Each folder contains just two sheets of paper. On the first is an exhaustive list of information related to a specific album - release date, sales figures, genre details, song lengths, chart placements, and so on. The second slip of paper is emblazoned with a single number - Pitchfork's own zero-to-ten album rating.
                     </p>
@@ -39,7 +27,7 @@
                         <em>"One Point Five!"</em>
                     </p>
                     <p>
-                        You take the second sheet from the folder, obtaining the correct answer - nine point three. You slide it across the desk to the child, telling him just how wrong he was while pointing to the giant <b>9.3</b>. He glances at the <b>9.3</b>, then back at the information sheet, then back at the <b>9.3</b>, and so on for several minutes. He thinks about how wrong he was. He wants to do better next time. He thinks, <i>"Next time I see an album that looks kinda like this one, I'll know to guess higher."</i> You can almost hear the gears turning in his head. The toddler hands both sheets back, which you place in the folder before tossing it to the ground. You pick up another folder from the table, nab the information sheet, and hand it over. "From zero to ten, what score did this receive on Pitchfork.com?"
+                        You take the second sheet from the folder, and see the correct answer - nine point three. You slide it across the desk to the child, telling him just how wrong he was while pointing to the giant <b>9.3</b>. He glances at the <b>9.3</b>, then back at the information sheet, then back at the <b>9.3</b>, and so on for several minutes. He thinks about how wrong he was. He wants to do better next time. He thinks, <i>"Next time I see an album that looks kinda like this one, I'll know to guess higher."</i> You can almost hear the gears turning in his head. The toddler hands both sheets back, which you place in the folder before tossing it to the ground. You pick up another folder from the table, nab the information sheet, and hand it over. "From zero to ten, what score did this receive on Pitchfork.com?"
                     </p>
                     <p>
                         You two sit in the room for five years, playing this game thousands of times. When every folder has been tossed to the floor, you put them all back on the table and repeat the exercise. As the years pass, the toddler grows both physically and mentally. He develops an uncanny intuition, able to guess each score with astonishing accuracy after seeing just its data sheet.
@@ -59,12 +47,56 @@
     </section>
 </template>
 
-<style>
-.profile {
-    border-radius: 50%;
+<style lang="scss">
+@import "../../node_modules/bulma/sass/utilities/initial-variables.sass";
+@import "../../node_modules/bulma/sass/utilities/derived-variables.sass";
+@import "../../node_modules/bulma/sass/utilities/mixins.sass";
+
+.credit-line {
+    margin-bottom: 2em;
 }
-.blog-text > p {
-    margin-bottom: 1.5em;
-    max-width: 600px;
+
+.blog-section {
+    .title {
+        margin-top: 0em;
+        font-size: 2.5em;
+        @include from($desktop) {
+            margin-top: 1em;
+            font-size: 2.1em;
+        }
+    }
+
+    .subtitle {
+        margin-bottom: 1em;
+        font-size: 1.2em;
+        @include from($desktop) {
+            font-size: 1.5em;
+        }
+    }
+
+    .credit-line {
+        padding-left: 1em;
+        margin-bottom: 1em;
+        @include from($desktop) {
+            padding-left: 2em;
+            font-size: 1.2em !important;
+        }
+    }
+
+    .blog-text {
+        color: #111;
+        font-size: 1em !important;
+        @include from($desktop) {
+            font-size: 1.3em !important;
+            max-width: 720px;
+        }
+
+        p {
+            margin-bottom: 2em;
+            @include from($desktop) {
+                margin-bottom: 1em;
+            }
+        }
+    }
 }
 </style>

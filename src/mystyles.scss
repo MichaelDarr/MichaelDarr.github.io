@@ -3,7 +3,6 @@
 
 $family-secondary: 'Georgia', 'Noto Serif', serif;
 $footer-padding: 0.7rem 1.5rem .6rem;
-$widescreen: 960px;
 
 body {
     display: flex;
@@ -12,6 +11,7 @@ body {
 }
 
 .whole-page {
+    position: relative;
     min-height: 100vh;
 }
 

@@ -1,5 +1,5 @@
 <template functional>
-    <footer class="footer footer-section real-footer">
+    <footer class="footer footer-section is-invisible">
         <div class="columns is-centered">
             <div class="column is-full is-max-custom-width">
                 <div class="columns is-mobile">
@@ -39,50 +39,3 @@
         </div>
     </footer>
 </template>
-
-<style lang="scss">
-@import "../../node_modules/bulma/sass/utilities/initial-variables.sass";
-@import "../../node_modules/bulma/sass/utilities/derived-variables.sass";
-@import "../../node_modules/bulma/sass/utilities/mixins.sass";
-
-.footer-section {
-    bottom: 0;
-    width: 100%;
-    margin-top: 0;
-}
-
-.real-footer {
-    position: absolute;
-}
-
-.brand-link-holder {
-    padding-top: 1rem;
-    padding-bottom: 0.8rem;
-    @include from($desktop) {
-        padding-top: 1.2rem;
-    }
-
-    .brand-link {
-        font-size: 1.6rem;
-        @include from($desktop) {
-            font-size: 1.7rem;
-        }
-    }
-}
-
-.mail-link {
-    font-size: 0.9em !important;
-}
-
-.location-text {
-    font-size: 0.8em !important;
-}
-
-.spacer {
-    display: inline-block;
-    width: 1.5rem;
-    @include from($desktop) {
-        width: 5rem;
-    }
-}
-</style>

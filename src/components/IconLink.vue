@@ -1,22 +1,37 @@
 <template>
-    <p class="is-mobile level force-left-justify">
+    <div class="is-mobile level is-mobile force-left-justify">
         <span class="level-item is-narrow">
-            <a :href="link">
+            <a
+                class="icon-container"
+                :href="link"
+            >
                 <b-icon
                     class="brand-link"
                     :pack="iconPack"
                     :icon="iconName"
-                    size="is-medium"
                 />
             </a>
         </span>
-        <span class="level-item force-left-justify is-narrow">
+        <span class="level-item force-left-justify is-narrow is-size-6">
             <a :href="link">
                 {{ displayLink }}
             </a>
         </span>
-    </p>
+    </div>
 </template>
+
+<style lang="scss">
+@import "../../node_modules/bulma/sass/utilities/initial-variables.sass";
+@import "../../node_modules/bulma/sass/utilities/derived-variables.sass";
+@import "../../node_modules/bulma/sass/utilities/mixins.sass";
+
+.icon-container {
+    display: inline-block;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+</style>
+
 
 <script lang="ts">
 import Vue from 'vue';

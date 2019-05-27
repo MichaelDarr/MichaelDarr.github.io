@@ -1,10 +1,25 @@
 <template>
-    <li :class="{ 'is-active': isActive() }">
+    <li
+        class="is-size-6 nav-tab"
+        :class="{ 'is-active': isActive() }"
+    >
         <router-link :to="link">
             {{ display }}
         </router-link>
     </li>
 </template>
+
+<style lang="scss">
+@import "../../node_modules/bulma/sass/utilities/initial-variables.sass";
+@import "../../node_modules/bulma/sass/utilities/derived-variables.sass";
+@import "../../node_modules/bulma/sass/utilities/mixins.sass";
+
+.nav-tab {
+    @include from($desktop) {
+        font-size: 1.2em !important;
+    }
+}
+</style>
 
 <script lang="ts">
 import Vue from 'vue';
