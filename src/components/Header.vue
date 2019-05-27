@@ -13,3 +13,9 @@
         </div>
     </section>
 </template>
+
+<style>
+.header-section {
+    padding-bottom: 0 !important;
+}
+</style>
