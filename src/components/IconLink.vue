@@ -38,7 +38,7 @@ import Vue from 'vue';
 import { Component, Prop } from 'vue-property-decorator';
 
 @Component
-export default class NavTab extends Vue {
+export default class IconLink extends Vue {
     @Prop()
     link!: string;
 

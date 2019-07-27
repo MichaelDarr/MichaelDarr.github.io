@@ -1,46 +1,37 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
+import Vue, { VNode } from 'vue';
+import Router from 'vue-router';
 import './mystyles.scss';
 import Buefy from 'buefy';
-import HeaderComponent from './components/Header.vue';
-import FooterComponent from './components/Footer.vue';
-import FooterInvisComponent from './components/FooterInvis.vue';
-import BlogPostComponent from './components/BlogPost.vue';
-import NavTabMenuComponent from './components/NavTabMenu.vue';
-import NavTabComponent from './components/NavTab.vue';
-import ContactHeroComponent from './components/ContactHero.vue';
-import ContactInfoComponent from './components/ContactInfo.vue';
-import IconLinkComponent from './components/IconLink.vue';
-
-const BlogPage = () => import('./routes/BlogPage.vue');
-const AboutPage = () => import('./routes/AboutPage.vue');
-const ContactPage = () => import('./routes/ContactPage.vue');
+import App from './App.vue';
+import About from './views/About.vue';
+import Blog from './views/Blog.vue';
+import Contact from './views/Contact.vue';
 
 Vue.use(Buefy);
-Vue.use(VueRouter);
+Vue.use(Router);
 
-const routes = [
-    { path: '/', component: BlogPage },
-    { path: '/about', component: AboutPage },
-    { path: '/contact', component: ContactPage },
-];
-
-const router = new VueRouter({
-    routes,
+const router = new Router({
+    routes: [
+        {
+            path: '/',
+            name: 'blog',
+            component: Blog,
+        },
+        {
+            path: '/about',
+            name: 'about',
+            component: About,
+        },
+        {
+            path: '/contact',
+            name: 'contact',
+            component: Contact,
+        },
+    ],
 });
 
 new Vue({
     el: '#app',
-    components: {
-        HeaderComponent,
-        FooterComponent,
-        FooterInvisComponent,
-        BlogPostComponent,
-        NavTabMenuComponent,
-        NavTabComponent,
-        ContactHeroComponent,
-        ContactInfoComponent,
-        IconLinkComponent,
-    },
     router,
+    render: (h): VNode => h(App),
 });
