@@ -3,10 +3,6 @@
         <ul>
             <NavTab
                 link="/"
-                display="Blog"
-            />
-            <NavTab
-                link="/about"
                 display="About"
             />
             <NavTab

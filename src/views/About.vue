@@ -61,7 +61,7 @@
                 </ul>
                 <span class="about-spacer" />
                 <h2>Education</h2>
-                <p>William &amp; Mary, Class of 2019</p>
+                <p>College of William &amp; Mary, Class of 2019</p>
                 <ul>
                     <li>
                         <span class="degree">

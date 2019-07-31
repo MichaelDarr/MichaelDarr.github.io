@@ -4,7 +4,6 @@ import './mystyles.scss';
 import Buefy from 'buefy';
 import App from './App.vue';
 import About from './views/About.vue';
-import Blog from './views/Blog.vue';
 import Contact from './views/Contact.vue';
 
 Vue.use(Buefy);
@@ -14,11 +13,6 @@ const router = new Router({
     routes: [
         {
             path: '/',
-            name: 'blog',
-            component: Blog,
-        },
-        {
-            path: '/about',
             name: 'about',
             component: About,
         },
