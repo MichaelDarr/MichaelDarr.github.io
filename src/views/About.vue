@@ -52,14 +52,6 @@
                         </a>
                     </li>
                 </ul>
-                <h2>Favorite Tech</h2>
-                <ul>
-                    <li>TensorFlow</li>
-                    <li>TypeScript</li>
-                    <li>Node.js</li>
-                    <li>Vue / Vuex</li>
-                </ul>
-                <span class="about-spacer" />
                 <h2>Education</h2>
                 <p>College of William &amp; Mary, Class of 2019</p>
                 <ul>
@@ -75,6 +67,16 @@
                         </span>
                         : Economics
                     </li>
+                </ul>
+                <span class="about-spacer" />
+                <h2>Favorite Tech</h2>
+                <ul>
+                    <li>TensorFlow</li>
+                    <li>TypeScript</li>
+                    <li>Node.js</li>
+                    <li>Vue / Vuex</li>
+                    <li>Docker</li>
+                    <li>Arch Linux</li>
                 </ul>
             </div>
         </div>
