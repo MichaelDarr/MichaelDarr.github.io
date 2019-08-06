@@ -26,6 +26,14 @@
                         </span>
                     </li>
                     <li>
+                        <a href="https://michaeldarr.github.io/MuCritic/">
+                            Technical Documentation
+                        </a>
+                        <span class="sub-heading">
+                            TSDocs
+                        </span>
+                    </li>
+                    <li>
                         <a href="https://github.com/MichaelDarr/MuCritic_App/">
                             Source Code
                         </a>
