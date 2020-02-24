@@ -5,12 +5,12 @@
                 <div class="columns is-mobile">
                     <div class="column">
                         <p class="is-size-2 mail-link">
-                            <a href="mailto:medarr@email.wm.edu">
-                                medarr@email.wm.edu
+                            <a href="mailto:michael.e.darr@gmail.com">
+                                michael.e.darr@gmail.com
                             </a>
                         </p>
                         <p class="is-size-3 location-text">
-                            Hacking in Belmont, MA
+                            Hacking in Palo Alto, CA
                         </p>
                     </div>
                     <div class="column is-narrow has-text-right is-narrow brand-link-holder">

@@ -12,16 +12,23 @@ Vue.use(Router);
 const router = new Router({
     routes: [
         {
-            path: '/',
-            name: 'about',
             component: About,
+            meta: {title: 'Michael Darr - About'},
+            name: 'about',
+            path: '/',
         },
         {
-            path: '/contact',
-            name: 'contact',
             component: Contact,
+            meta: {title: 'Michael Darr - Contact'},
+            name: 'contact',
+            path: '/contact',
         },
     ],
+});
+
+router.beforeEach((to, _, next) => {
+    document.title = to.meta.title;
+    next();
 });
 
 new Vue({

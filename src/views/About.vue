@@ -3,8 +3,37 @@
         <div class="columns is-centered">
             <div class="column is-max-custom-width">
                 <h2 class="projects-header">
-                    Recent Projects
+                    Open Source
                 </h2>
+                <h3>
+                    Ahab
+                </h3>
+                <p class="sub-heading">
+                    Dockerize your Project, Git Style
+                </p>
+                <ul>
+                    <li>
+                        <a href="https://github.com/MichaelDarr/ahab">
+                            Source Code &amp; Documentation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://aur.archlinux.org/packages/ahab/">
+                            Arch Linux Package (AUR)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://launchpad.net/~michaeldarr/+archive/ubuntu/ppa">
+                            Ubuntu Package (PPA)
+                        </a>
+                    </li>
+                </ul>
+                <h3>
+                    google/glog
+                </h3>
+                <p class="sub-heading">
+                    The Google logging module (<a href="https://github.com/google/glog/blob/master/CONTRIBUTORS">contributor</a>)
+                </p>
                 <h3>
                     μCritic
                 </h3>
@@ -22,7 +51,7 @@
                             Source Code
                         </a>
                         <span class="sub-heading">
-                            modeling &amp; data aquisition
+                            Modeling &amp; Data Aquisition
                         </span>
                     </li>
                     <li>
@@ -38,7 +67,7 @@
                             Source Code
                         </a>
                         <span class="sub-heading">
-                            demo site
+                            Demo Site
                         </span>
                     </li>
                 </ul>
@@ -79,12 +108,14 @@
                 <span class="about-spacer" />
                 <h2>Favorite Tech</h2>
                 <ul>
-                    <li>TensorFlow</li>
-                    <li>TypeScript</li>
-                    <li>Node.js</li>
-                    <li>Vue / Vuex</li>
-                    <li>Docker</li>
                     <li>Arch Linux</li>
+                    <li>CMake</li>
+                    <li>Docker</li>
+                    <li>Go</li>
+                    <li>Node.js/TypeScript</li>
+                    <li>PyTorch</li>
+                    <li>Vue/Vuex</li>
+                    <li>Yocto</li>
                 </ul>
             </div>
         </div>

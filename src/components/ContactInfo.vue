@@ -6,8 +6,8 @@
                     <div class="columns is-mobile">
                         <div class="column is-narrow contact-link-holder">
                             <IconLink
-                                link="mailto:medarr@email.wm.edu"
-                                display-link="medarr@email.wm.edu"
+                                link="mailto:michael.e.darr@gmail.com"
+                                display-link="michael.e.darr@gmail.com"
                                 icon-pack="fa"
                                 icon-name="envelope"
                             />
